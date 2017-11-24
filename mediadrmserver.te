@@ -53,7 +53,7 @@ allow mediadrmserver surfaceflinger_service:service_manager find;
 
 # only allow unprivileged socket ioctl commands
 #allowxperm mediadrmserver self:{ rawip_socket tcp_socket udp_socket }
-  ioctl { unpriv_sock_ioctls unpriv_tty_ioctls };
+#  ioctl { unpriv_sock_ioctls unpriv_tty_ioctls };
 
 ###
 ### neverallow rules
